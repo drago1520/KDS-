@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html{
-  background-color: #FFE7FA;
+  background-color: #FFE7FA ;
 }
