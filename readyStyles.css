@@ -1,4 +1,4 @@
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -45,10 +45,10 @@
   --tw-backdrop-invert:  ;
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  
+  --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -95,62 +95,135 @@
   --tw-backdrop-invert:  ;
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  
+  --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute
+.absolute{
+  position: absolute;
 }
 
-.relative {
-  position: relative
+.relative{
+  position: relative;
 }
 
-.-left-2 {
-  left: -0.5rem
+.-left-3{
+  left: -0.75rem;
 }
 
-.-top-10 {
-  top: -2.5rem
+.-top-10{
+  top: -2.5rem;
 }
 
-.-top-5 {
-  top: -1.25rem
+.-top-5{
+  top: -1.25rem;
 }
 
-.left-0 {
-  left: 0px
+.left-0{
+  left: 0px;
 }
 
-.left-3 {
-  left: 0.75rem
+.left-1{
+  left: 0.25rem;
 }
 
-.top-0 {
-  top: 0px
+.left-7{
+  left: 1.75rem;
 }
 
-.z-\[-1\] {
-  z-index: -1
+.right-16{
+  right: 4rem;
 }
 
-.h-28 {
-  height: 7rem
+.top-0{
+  top: 0px;
 }
 
-.h-auto {
-  height: auto
+.top-4{
+  top: 1rem;
 }
 
-.w-\[107vw\] {
-  width: 107vw
+.top-6{
+  top: 1.5rem;
 }
 
-.w-full {
-  width: 100%
+.z-\[0\]{
+  z-index: 0;
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity))
+.z-\[1\]{
+  z-index: 1;
+}
+
+.z-\[2\]{
+  z-index: 2;
+}
+
+.z-\[3\]{
+  z-index: 3;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
+.mb-2\.5{
+  margin-bottom: 0.625rem;
+}
+
+.ml-3{
+  margin-left: 0.75rem;
+}
+
+.ml-3\.5{
+  margin-left: 0.875rem;
+}
+
+.h-28{
+  height: 7rem;
+}
+
+.h-5{
+  height: 1.25rem;
+}
+
+.h-\[10vh\]{
+  height: 10vh;
+}
+
+.h-\[50vh\]{
+  height: 50vh;
+}
+
+.h-auto{
+  height: auto;
+}
+
+.w-5{
+  width: 1.25rem;
+}
+
+.w-\[100vw\]{
+  width: 100vw;
+}
+
+.w-\[107vw\]{
+  width: 107vw;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.rounded-full{
+  border-radius: 9999px;
+}
+
+.pt-24{
+  padding-top: 6rem;
+}
+
+html, body{
+  background-color: #FFE7FA ;
+  overflow-x: hidden;
+  margin: 0px;
 }

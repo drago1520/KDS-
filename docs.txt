@@ -1,0 +1,3 @@
+right offset - 16
+left offset - 7 (logo)
+край на top nav bar - 24
