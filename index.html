@@ -18,16 +18,20 @@
 <!---->
 
 <!--REUSABLE: divider-->
+    
+<!---->
+
+
     <div id="divider" class="pt-24 relative z-[0] h-[8vh]" >
 
     </div>
-<!---->
+    <img src="./assets/info-icon.svg" class="h-5 w-5 ml-3.5" />
+    <div class="relative mb-11">
 
-<!--REUSABLE: INFO ICON-->
-    <img src="./assets/info-icon.svg" class="h-5 w-5 ml-3.5 relative mb-11" />
-<!---->
+    </div>
 
-    <!--Tables-->
+
+    <!--Tables 198px-->
     <div class="absolute top-[198px] w-full">
       <img src="./assets/table-blob.svg" class="absolute z-[2] h-[45vh] w-[103vw] -left-5" />
     </div>
@@ -71,18 +75,46 @@
       </div>
     </div>
     <img src="./assets/table-blob-shadow.svg" class="relative h-[45vh] w-[103vw] z-[1]" />
-<!--REUSABLE: divider-->
-    <div class="h-[6vh] relative">
-      dd
-    </div>
-<!---->
+
 <!--REUSABLE: bottom nav bar-->
-<div class="absolute bottom-0 w-full h-[125px]">
-      
+<div class="absolute bottom-0 w-full h-[12vh] ">
+  <!--Shadow for background-->
+  <div class="absolute w-full h-full rounded-tl-3xl z-[0] bottom-3.5" style="background-color: #F7BFB4;"></div>
+  <!--GRID container & Background;-->
+  <div class="relative grid grid-cols-3 grid-rows-1 gap-x-5 z-[2] justify-items-center items-center h-full w-full" style="background-color: #EBB9DF;">
+    <!--Column 1-->
+    <div class="col-start-1 col-end-2">
+      <img src="./assets/table-nav-bar.svg" class="h-[7vh] max-h-[60px] "/>
+    </div>
+    <!--Column 2-->
+    <div class="col-start-2 col-end-3">
+      <img src="./assets/orders.svg" class="h-[8vh] max-h-[80px]"/>
+    </div>
+    <!--Column 3-->
+    <div class="col-start-3 col-end-4">
+      <img src="./assets/check-order.png" class="h-[8vh] max-h-[80px]"/>
+    </div>
+  </div>
+  
+  
+  
 </div>
+
 <!---->
 
+<!--Will separate later.-->
+<script>
+  window.addEventListener('touchmove', function(event) {
+    event.preventDefault();
+  }, { passive: false });
+  // Disable scrolling
+  function noScroll() {
+    window.scrollTo(0, 0);
+  }
 
+  // Add listener to disable scroll
+  window.addEventListener('scroll', noScroll);
 
+</script>
 </body>
 </html>
