@@ -7,3 +7,6 @@ html, body{
   overflow-x: hidden;
   margin: 0px;
 }
+.custom-width {
+  width: calc(100vw - 4rem - 1.75rem);
+}
