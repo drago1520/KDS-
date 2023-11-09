@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "npx tailwindcss -i ./styles.css -o ./readyStyles.css --watch"
+    "css": "npx tailwindcss -i ./styles.css -o ./readyStyles.css --watch",
+    "tables-page": "npx tailwindcss -i ./tables-page/styles.css -o ./tables-page/readyStyles.css --watch",
+    "single-table-page": "npx tailwindcss -i ./single-table-page/styles.css -o ./single-table-page/readyStyles.css --watch"
   },
   "keywords": [],
   "author": "",
