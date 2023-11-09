@@ -1,5 +1,5 @@
 right offset - 16
-left offset - 7 (logo)
+left offset - min-[500px]:mr-16 mr-7
 край на top nav bar - 24
 divider #1 - 10vh
 info и сл. елемент долу - 2.5
