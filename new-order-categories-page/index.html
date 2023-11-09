@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KDS</title>
+  <link href="./readyStyles.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <!--REUSABLE: nav bar-->
+  <nav>
+    <img src="../assets/nav-bar-blob.svg" class="w-[107vw] absolute h-28 -top-10 -left-3 z-[2]" />
+    <img src="../assets/nav-bar-blob-shadow.svg" class="w-[107vw] absolute h-28 -top-5 left-1 z-[1] " />
+    <img src="https://picsum.photos/65/33" class="absolute top-4 left-7 z-[3] rounded-full" alt="my logo"/>
+    <img src="../assets/hamburger-menu.svg" alt="menu" class="w-5 h-5 absolute z-[3] top-6 right-16"/>
+  </nav>
+<!---->
+<div id="divider" class="pt-24 relative z-[0] h-[8vh]" >
+
+</div>
+<img src="../assets/info-icon.svg" class="h-5 w-5 ml-3.5" />
+<!--REUSABLE: info icon + 2 additional columns if needed more content-->
+<div class="flex ml-3.5 mt-3.5">
+  <div class="flex-1">
+    <div class="">
+      <!-- Content for column 1 -->
+      <img src="../assets/back-nav.svg" class="h-8" />
+    </div>
+  </div>
+  <div class="flex-1">
+    <div class="">
+      <!-- Content for column 2 -->
+      
+    </div>
+  </div>
+  <div class="flex-1">
+    <div class="">
+      <!-- Content for column 3 -->
+      
+    </div>
+  </div>
+</div>
+<!---->
+
+
+
+
+
+ 
+
+
+
+
+   <!--REUSABLE: bottom nav bar-->
+<div class="absolute bottom-0 w-full h-[12vh]">
+  <!--Shadow for background-->
+  <div class="absolute w-full h-full rounded-tl-3xl z-0 bottom-3.5" style="background-color: #F7BFB4;"></div>
+  <!--GRID container & Background-->
+  <div class="relative flex items-center rounded-tl-3xl h-full w-full" style="background-color: #EBB9DF;">
+    <!--Colored Gap Before Column 1 (White Gap)-->
+    <!--Column 1-->
+    <div class="flex-1 flex justify-center">
+      <img src="../assets/checkout.svg" class="h-[8vh] max-h-[80px]"/>
+    </div>
+    <!--Colored Gap Between Columns (White Gap)-->
+    <div class="w-2 h-full" style="background-color: #FFE7FA;"></div>
+    <!--Column 2-->
+    <div class="flex-1 flex justify-center">
+      <img src="../assets/percent-checkout.svg" class="h-[8vh] max-h-[80px]"/>
+    </div>
+    <!--Colored Gap Between Columns (White Gap)-->
+    <div class="w-2 h-full" style="background-color: #FFE7FA;"></div>
+    <!--Column 3-->
+    <div class="flex-1 flex justify-center">
+      <img src="../assets/trash.svg" class="h-[8vh] max-h-[80px]"/>
+    </div>
+    <!--Colored Gap Between Columns (White Gap)-->
+    <div class="w-2 h-full" style="background-color: #FFE7FA;"></div>
+    <!--Column 4-->
+    <div class="flex-1 flex justify-center">
+      <img src="../assets/orders.svg" class="h-[8vh] max-h-[80px]"/>
+      <img src="../assets/add-plus.svg" class="absolute pt-[2.5vh] h-[3vh] mah-h-[24px]" />
+      <!-- Replace with your 4th column icon -->
+    </div>
+  </div>
+</div>
+
+
+<!---->
+  <!--Will separate later.-->
+<script>
+  window.addEventListener('touchmove', function(event) {
+    event.preventDefault();
+  }, { passive: false });
+  // Disable scrolling
+  function noScroll() {
+    window.scrollTo(0, 0);
+  }
+
+  // Add listener to disable scroll
+  window.addEventListener('scroll', noScroll);
+
+</script>
+</body>
+</html>
