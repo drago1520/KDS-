@@ -10,7 +10,8 @@
     "single-table-page": "npx tailwindcss -i ./single-table-page/styles.css -o ./single-table-page/readyStyles.css --watch",
     "new-order-categories-page": "npx tailwindcss -i ./new-order-categories-page/styles.css -o ./new-order-categories-page/readyStyles.css --watch",
     "dishes-page": "npx tailwindcss -i ./dishes-page/styles.css -o ./dishes-page/readyStyles.css --watch",
-    "single-dish-page": "npx tailwindcss -i ./single-dish-page/styles.css -o ./single-dish-page/readyStyles.css --watch"
+    "single-dish-page": "npx tailwindcss -i ./single-dish-page/styles.css -o ./single-dish-page/readyStyles.css --watch",
+    "review-order-page": "npx tailwindcss -i ./review-order-page/styles.css -o ./review-order-page/readyStyles.css --watch"
   },
   "keywords": [],
   "author": "",
