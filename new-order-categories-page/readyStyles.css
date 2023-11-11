@@ -507,8 +507,16 @@
   width: 42.5px;
 }
 
+.w-\[6vw\]{
+  width: 6vw;
+}
+
 .w-full{
   width: 100%;
+}
+
+.w-\[60vw\]{
+  width: 60vw;
 }
 
 .max-w-\[300px\]{
@@ -517,6 +525,22 @@
 
 .max-w-full{
   max-width: 100%;
+}
+
+.max-w-\[\]{
+  max-width: ;
+}
+
+.max-w-\[30px\]{
+  max-width: 30px;
+}
+
+.max-w-\[50px\]{
+  max-width: 50px;
+}
+
+.max-w-\[40px\]{
+  max-width: 40px;
 }
 
 .flex-1{
@@ -537,6 +561,11 @@
 
 .-rotate-90{
   --tw-rotate: -90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-\[30deg\]{
+  --tw-rotate: 30deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
