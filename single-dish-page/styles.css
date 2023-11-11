@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body{
+  background-color: #F5D5ED ;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0px;
+}
+h1, h2, h3, h4, h5, h6{
+  padding: 0px;
+  margin: 0px;
+  
+}
+.custom-width {
+  width: calc(100vw - 4rem - 1.75rem);
+}
