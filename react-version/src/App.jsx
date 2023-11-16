@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import PreventScroll from './utils/PreventScroll';
 import SingleDish from "./components/Single-dish-page/SingleDish";
 import Categories from "./components/New-order-categories-page/Categories";
+import Dishes from './components/Dishes-page/Dishes';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/single-table" element={<SingleTable />} />
         <Route path='/single-dish' element={<SingleDish />} />
         <Route path="/categories" element={<Categories />} />
+        <Route path="/dishes" element={<Dishes />} />
       </Routes>
     </Router>
 
